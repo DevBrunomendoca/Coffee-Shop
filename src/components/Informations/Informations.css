@@ -1,0 +1,39 @@
+.section-informations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+.container-informations {
+  display: flex;
+  width: 100%;
+}
+.container-card-informations {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff6ea;
+  color: #121212;
+  gap: 1rem;
+}
+.container-card-informations h3 {
+  font-size: 3.5rem;
+  
+  color: #121212;
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.container-card-informations p {
+  font-size: 2rem;
+  color: #121212;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+.images-cards img {
+  width: 25vw;
+}

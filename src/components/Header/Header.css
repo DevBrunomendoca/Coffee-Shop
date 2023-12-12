@@ -1,0 +1,13 @@
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.8rem 6rem;
+  background-color: #1a1a1a;
+  border-bottom: 2px solid #fff6ea;
+}
+
+.container-header img {
+  color: #fff6ea;
+}

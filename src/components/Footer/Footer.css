@@ -1,0 +1,23 @@
+.footer {
+  background-color: #121212;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 5rem;
+}
+
+.footer p {
+  font-size: 2rem;
+  color: #fff6ea;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  max-width: 1200px;
+  text-align: start;
+}
+
+.social-medias {
+  display: flex;
+  gap: 4rem;
+cursor: pointer;
+}

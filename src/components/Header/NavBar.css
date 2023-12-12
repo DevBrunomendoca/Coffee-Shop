@@ -1,0 +1,23 @@
+.container-nav ul {
+  display:flex ;
+  gap: 1rem;
+}
+
+.container-nav ul li {
+  list-style: none;
+}
+
+.container-nav ul li a {
+  text-decoration: none; 
+  font-size: 2.5rem;
+  color: #fff6ea;
+  font-family: 'Marcellus', serif;
+  transition: .5s;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid transparent;
+}
+
+.container-nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid #fff6ea;
+}

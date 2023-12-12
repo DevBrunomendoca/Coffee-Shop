@@ -1,0 +1,70 @@
+.container-content-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rem 2rem;
+}
+.container-content-menu h3 {
+  font-size: 5rem;
+  letter-spacing: 1rem;
+  color: #121212;
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+}
+.container-content-menu img {
+  width: 250px;
+  margin: 2rem 0;
+}
+.container-content-menu p {
+  font-size: 2.5rem;
+  color: #121212;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.container-card-menu {
+  display: grid;
+  column-gap: 4rem;
+  row-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.card-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+}
+
+.card-menu img {
+  width: 100px;
+}
+
+.card-menu h4 {
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+  color: #121212;
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  text-align: start;
+}
+
+.card-menu p {
+  font-size: 2rem;
+  color: #121212;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  max-width: 1200px;
+  text-align: start;
+} 
+.card-menu {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
