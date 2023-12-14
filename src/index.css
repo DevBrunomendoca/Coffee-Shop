@@ -11,9 +11,6 @@ html {
 body {
   overflow-x: hidden;
 }
-body::-webkit-scrollbar {
-  display: none; /* Oculta a barra de rolagem no Safari/Chrome */
-}
 @media (max-width:1160px) {
   html {
     font-size: 50%;
@@ -27,6 +24,9 @@ body::-webkit-scrollbar {
   body {
     overflow-x: hidden;
   }
+  .nav-list {
+    transition: 3s;
+  }
   .nav-list.menuOpen{
     position: absolute;
     top: 1vh;
@@ -39,15 +39,16 @@ body::-webkit-scrollbar {
     justify-content: center;
     gap: 10rem;
     transform: translateX(0);
-    transition: transform  0.3s ease-in;
-    overflow-x: hidden;
+    transition:  transform 3s ease-in;
+    
   }
   .nav-list.menuClose{
     transform: translateX(100%);
     position: absolute;
+    display: none; 
     right: 0;
-    overflow-x: hidden;
-  } 
+  }
+
   .mobile-menu {
     display: block;
     z-index: 10;
@@ -67,9 +68,6 @@ body::-webkit-scrollbar {
   }
   .mobile-menu.active .line3{
     transform: rotate(42deg) translate(-21px, -7px);
-  }
-  .container-nav {
-    overflow-x: hidden;
   }
   .container-nav ul li a {
     font-size: 3.5rem;
@@ -148,6 +146,9 @@ body::-webkit-scrollbar {
   .card-menu h4, .card-menu p {
     text-align: center;
   }
+  .footer p {
+    text-align: center;
+}
 }
 @media (max-width:350px) {
   

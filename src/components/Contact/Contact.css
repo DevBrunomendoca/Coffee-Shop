@@ -12,11 +12,13 @@
 } 
 
 .container-contact h3 {
-  font-size: 4rem;
+  padding: 0 1rem;
   color: #fff6ea;
+  font-size: 4rem;
   font-family: 'Marcellus', serif;
   font-weight: 400;
   text-align: center;
+  
 }
 
 .form-control {
