@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef } from 'react'
+import {  useLayoutEffect, useRef} from 'react'
 import Typical from 'react-typical'
 import { gsap } from 'gsap'
 
@@ -13,10 +13,7 @@ const Main = () => {
       { opacity: 0, y: -120}, 
       { opacity: 1, y: 0 , duration: 1}
     )
-  
-  
   },[])
-
   const titleRef = useRef(null)
 
   return (

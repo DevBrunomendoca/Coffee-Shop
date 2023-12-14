@@ -17,7 +17,6 @@ const Contact = () => {
         scrollTrigger: {
           trigger: ".container-contact",
           start: " bottom 1600px",
-          markers: true
         }
       })
         .fromTo(".title-contact", {

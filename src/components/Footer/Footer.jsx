@@ -17,7 +17,6 @@ const Footer = () => {
         scrollTrigger: {
           trigger: ".footer",
           start: " bottom 1500px",
-          markers: true
         }
       })
         .fromTo(".paragraph-footer", {
