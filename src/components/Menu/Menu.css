@@ -26,7 +26,6 @@
 
 .container-card-menu {
   display: grid;
-  
   row-gap: 3rem;
   grid-template-columns: 1fr 1fr;
   justify-content: space-evenly;

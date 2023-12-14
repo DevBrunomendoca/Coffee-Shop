@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Informations.css"
 
-const ImageCards = ({image, title}) => {
+const ImageCards = ({id ,image, title}) => {
   return (
-    <div className='images-cards'>
+    <div id={id} className='images-cards'>
     <img src={image} alt={title} />
     </div>
   )

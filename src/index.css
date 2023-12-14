@@ -24,8 +24,8 @@ body {
   body {
     overflow-x: hidden;
   }
-  .nav-list {
-    transition: 3s;
+  .container-header img {
+    width: 120px;
   }
   .nav-list.menuOpen{
     position: absolute;
@@ -39,7 +39,7 @@ body {
     justify-content: center;
     gap: 10rem;
     transform: translateX(0);
-    transition:  transform 3s ease-in;
+    z-index: 1;
     
   }
   .nav-list.menuClose{
@@ -115,12 +115,10 @@ body {
   }
 }
 @media (max-width:690px) {
-  /* .container-nav {
-    display: none;
-  } */
   .content-container h2 {
     font-size: 7rem;
   }
+  
 }
 @media (max-width:512px) {
   .content-container h2 {
