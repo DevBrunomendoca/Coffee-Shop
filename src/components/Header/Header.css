@@ -10,4 +10,5 @@
 
 .container-header img {
   color: #fff6ea;
+  z-index: 10;
 }

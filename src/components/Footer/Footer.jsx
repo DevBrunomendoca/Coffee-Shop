@@ -7,7 +7,7 @@ const Footer = () => {
   return (
       <footer className='footer'>
         <p>© Copyright | Developed By BRUNO MENDONÇA</p> 
-        <NavBar/>
+        
         <div className="social-medias">
           <img src="/icon-instagram.png" alt="" />
           <img src="/icon-twitter.png" alt="" />
