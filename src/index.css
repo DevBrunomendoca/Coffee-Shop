@@ -8,9 +8,9 @@ html {
   font-size: 62.5%;
   
 }
-
-
-
+body {
+  overflow-x: hidden;
+}
 @media (max-width:1160px) {
   html {
     font-size: 50%;
@@ -21,8 +21,9 @@ html {
     font-size: 45%;
     overflow-x: hidden;
   }
-  
-  
+  body {
+    overflow-x: hidden;
+  }
   .nav-list.menuOpen{
     position: absolute;
     top: 1vh;
@@ -146,6 +147,7 @@ html {
   
   .container-contact h3 {
     font-size: 3rem;
+    
   }
   .form-control input{
     width: 200px;
