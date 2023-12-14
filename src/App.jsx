@@ -9,7 +9,10 @@ import Menu from "./components/Menu/Menu";
 
 export default function App() {
   return(
+    <>
+    
     <div className="app">
+      
       <Header/>
       <Main/>
       <About/>
@@ -18,5 +21,7 @@ export default function App() {
       <Contact/>
       <Footer/>
     </div>
+    </>
+    
   )
 }

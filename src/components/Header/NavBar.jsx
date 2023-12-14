@@ -8,10 +8,13 @@ const NavBar = () => {
   const menuToggle = () => {
     setActive(!active)
     document.body.style.overflow = active ? "initial" : "hidden"
+    
+    const html = document.querySelector("html")
+    html.style.overflowY = active ? "initial" : "hidden"
   }
 
   return (
-    <nav className='container-nav' style={{border: "none"}}>
+    <nav className='container-nav'>
       <div className= {active ? "mobile-menu active " : "mobile-menu "} onClick={menuToggle}>
         <div className='line1'></div>
         <div className='line2'></div>

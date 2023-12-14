@@ -6,7 +6,9 @@
 
 html {
   font-size: 62.5%;
+  
 }
+
 
 
 @media (max-width:1160px) {
@@ -19,6 +21,7 @@ html {
     font-size: 45%;
     overflow-x: hidden;
   }
+  
   
   .nav-list.menuOpen{
     position: absolute;
