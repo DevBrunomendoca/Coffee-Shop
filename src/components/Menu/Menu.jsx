@@ -18,7 +18,7 @@ const Menu = () => {
       tl.current = gsap.timeline({
         scrollTrigger: {
           trigger: ".section-menu",
-          start: "top center"
+          start: "top bottom"
         }
       })
         .fromTo(".title-menu", {

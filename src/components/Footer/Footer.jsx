@@ -16,7 +16,8 @@ const Footer = () => {
       tl.current = gsap.timeline({
         scrollTrigger: {
           trigger: ".footer",
-          start: " bottom 1500px",
+          start: " bottom 100%",
+
         }
       })
         .fromTo(".paragraph-footer", {

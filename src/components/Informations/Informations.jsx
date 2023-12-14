@@ -19,12 +19,12 @@ const Informations = () => {
       tl.current = gsap.timeline({
         scrollTrigger: {
           trigger: ".section-informations",
-          start: "top center"
+          start: "top bottom"
         }
       })
         .fromTo("#image-card-1", {
           opacity: 0,
-          x: -70
+          x: -80
         }, {
           opacity: 1,
           x: 0,
@@ -32,31 +32,31 @@ const Informations = () => {
         })
         .fromTo("#informations-card-1", {
           opacity: 0,
-          x: -70
+          x: -80
         }, {
           opacity: 1,
           x: 0,
-          duration: 1
+          duration: 0.8
         })
         .fromTo("#image-card-2", {
           opacity: 0,
-          x: -70
+          x: -80
         }, {
           opacity: 1,
           x: 0,
-          duration: 1
+          duration: 0.8
         })
         .fromTo("#image-card-3", {
           opacity: 0,
-          x: -70
+          x: -80
         }, {
           opacity: 1,
           x: 0,
-          duration: 1
+          duration: 0.8
         })
         .fromTo("#informations-card-2", {
           opacity: 0,
-          x: -70
+          x: -80
         }, {
           opacity: 1,
           x: 0,
@@ -64,19 +64,19 @@ const Informations = () => {
         })
         .fromTo("#image-card-4", {
           opacity: 0,
-          x: -70
+          x: -80
         }, {
           opacity: 1,
           x: 0,
-          duration: 1
+          duration: 0.8
         })
         .fromTo("#image-card-5", {
           opacity: 0,
-          x: -70
+          x: -80
         }, {
           opacity: 1,
           x: 0,
-          duration: 1
+          duration: 0.8
         })
         .fromTo("#informations-card-3", {
           opacity: 0,
@@ -84,7 +84,7 @@ const Informations = () => {
         }, {
           opacity: 1,
           x: 0,
-          duration: 1
+          duration: 0.8
         })
 
 

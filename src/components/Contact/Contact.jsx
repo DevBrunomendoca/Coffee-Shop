@@ -16,7 +16,7 @@ const Contact = () => {
       tl.current = gsap.timeline({
         scrollTrigger: {
           trigger: ".container-contact",
-          start: " bottom 1600px",
+          start: "bottom 100%",
         }
       })
         .fromTo(".title-contact", {
@@ -25,7 +25,7 @@ const Contact = () => {
         }, {
           opacity: 1,
           y: 0,
-          duration: 1.2
+          duration: 1.5
         })
         .fromTo(".form-control", {
           opacity: 0,

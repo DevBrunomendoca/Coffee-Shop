@@ -18,7 +18,7 @@ useLayoutEffect(() => {
   tl.current = gsap.timeline({
     scrollTrigger: {
       trigger: ".container-about",
-      start: "top center"
+      start: "top bottom"
     }
   })
   .fromTo("#image-about", {
