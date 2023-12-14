@@ -7,7 +7,7 @@ const NavBar = () => {
 
   const menuToggle = () => {
     setActive(!active)
-    document.body.style.overflow = active ? "initial" : "hidden"
+    
     
     const html = document.querySelector("html")
     html.style.overflowY = active ? "initial" : "hidden"

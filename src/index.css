@@ -6,10 +6,13 @@
 
 html {
   font-size: 62.5%;
-  
+  overflow-x: hidden;
 }
 body {
   overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  display: none; /* Oculta a barra de rolagem no Safari/Chrome */
 }
 @media (max-width:1160px) {
   html {
@@ -37,11 +40,13 @@ body {
     gap: 10rem;
     transform: translateX(0);
     transition: transform  0.3s ease-in;
+    overflow-x: hidden;
   }
   .nav-list.menuClose{
     transform: translateX(100%);
     position: absolute;
     right: 0;
+    overflow-x: hidden;
   } 
   .mobile-menu {
     display: block;
@@ -62,6 +67,9 @@ body {
   }
   .mobile-menu.active .line3{
     transform: rotate(42deg) translate(-21px, -7px);
+  }
+  .container-nav {
+    overflow-x: hidden;
   }
   .container-nav ul li a {
     font-size: 3.5rem;
